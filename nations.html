@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Танки по нациям — Мир Танков Blitz</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #111;
+      color: #eee;
+      background-image: url('https://i.imgur.com/r5LGzVq.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    header, footer, nav {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #d0c67a;
+    }
+
+    nav a {
+      color: #d0c67a;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .nation {
+      background-color: rgba(20, 20, 20, 0.85);
+      border: 1px solid #444;
+      border-radius: 8px;
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 800px;
+    }
+
+    .nation img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #ffd700;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding: 5px 0;
+      border-bottom: 1px solid #444;
+    }
+
+    audio {
+      display: block;
+      margin: 20px auto;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Танки по нациям</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="nations.html">Танки по нациям</a>
+    <a href="best.html">Лучшие танки</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="contact.html">Контакты</a>
+  </nav>
+
+  <div class="nation">
+    <h2>СССР</h2>
+    <img src="https://i.imgur.com/PhccYlx.jpg" alt="Советские танки">
+    <ul>
+      <li>Уровень I — МС-1</li>
+      <li>Уровень III — Т-46</li>
+      <li>Уровень V — Т-34</li>
+      <li>Уровень VII — ИС</li>
+      <li>Уровень X — ИС-7</li>
+    </ul>
+  </div>
+
+  <div class="nation">
+    <h2>Германия</h2>
+    <img src="https://i.imgur.com/BgR2rBt.jpg" alt="Немецкие танки">
+    <ul>
+      <li>Уровень II — Pz.Kpfw. II</li>
+      <li>Уровень IV — Hetzer</li>
+      <li>Уровень VI — VK 36.01 H</li>
+      <li>Уровень VIII — Tiger II</li>
+      <li>Уровень X — E 100</li>
+    </ul>
+  </div>
+
+  <div class="nation">
+    <h2>США</h2>
+    <img src="https://i.imgur.com/CHuGvCF.jpg" alt="Американские танки">
+    <ul>
+      <li>Уровень I — T1 Cunningham</li>
+      <li>Уровень III — M3 Stuart</li>
+      <li>Уровень V — M4 Sherman</li>
+      <li>Уровень VIII — T32</li>
+      <li>Уровень X — T110E5</li>
+    </ul>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://www.fesliyanstudios.com/play-mp3/387" type="audio/mpeg">
+    Ваш браузер не поддерживает аудио.
+  </audio>
+
+  <footer>
+    © 2025 Мир Танков Blitz
+  </footer>
+</body>
+</html>
